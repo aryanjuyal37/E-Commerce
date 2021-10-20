@@ -7,7 +7,8 @@ def update(data):
     data[item_name]=item_quantity
 
 def show(data):
-     
+     for i,j in data.items():
+            print(i,j)
 
 def search(data,key):
     return data.get(key)
